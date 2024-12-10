@@ -1,0 +1,140 @@
+Title: 2 Bed Flat, Manchester, M3
+Price: £1,450 per month
+Distance: 0.14 km
+Bedrooms: 2 Beds
+Bathrooms: 1 Bath
+Status: Furnished
+
+Title: 2 Bed Flat, Charlotte Street, M1
+Price: £3,750 per month
+Distance: 0.3 km
+Bedrooms: 2 Beds
+Bathrooms: 2 Baths
+Status: Furnished
+
+Title: Room in a Shared Flat, Tuscany House, M1
+Price: £689 per month
+Distance: 0.34 km
+Bedrooms: 2 Baths
+Bathrooms: Furnished
+Status: 
+
+Title: Room in a Shared Flat, Manchester, M1
+Price: £800 per month
+Distance: 0.34 km
+Bedrooms: 2 Baths
+Bathrooms: Furnished
+Status: 
+
+Title: Studio Flat, Manchester, M3
+Price: £950 per month
+Distance: 0.4 km
+Bedrooms: 1 Bath
+Bathrooms: Furnished
+Status: 
+
+Title: 1 Bed Flat, Watson Street, M3
+Price: £995 per month
+Distance: 0.41 km
+Bedrooms: 1 Bed
+Bathrooms: 1 Bath
+Status: Furnished
+
+Title: 2 Bed Flat, Princess Street, M1
+Price: £1,325 per month
+Distance: 0.48 km
+Bedrooms: 2 Beds
+Bathrooms: 1 Bath
+Status: Furnished
+
+Title: 1 Bed Flat, The Gallery, M3
+Price: £1,100 per month
+Distance: 0.5 km
+Bedrooms: 1 Bed
+Bathrooms: 1 Bath
+Status: Furnished
+
+Title: 2 Bed Flat, Church Street, M4
+Price: £1,900 per month
+Distance: 0.52 km
+Bedrooms: 2 Beds
+Bathrooms: 2 Baths
+Status: Furnished
+
+Title: 1 Bed Flat, The Gallery, M3
+Price: £1,595 per month
+Distance: 0.54 km
+Bedrooms: 1 Bed
+Bathrooms: 1 Bath
+Status: Furnished
+
+Title: 2 Bed Flat, City Heights, M3
+Price: £3,200 per month
+Distance: 0.56 km
+Bedrooms: 2 Beds
+Bathrooms: 2 Baths
+Status: Furnished
+
+Title: 1 Bed Flat, Transmission House, M4
+Price: £1,350 per month
+Distance: 0.56 km
+Bedrooms: 1 Bed
+Bathrooms: 1 Bath
+Status: Furnished
+
+Title: 1 Bed Flat, Edge Clowes Street, M3
+Price: £1,250 per month
+Distance: 0.59 km
+Bedrooms: 1 Bed
+Bathrooms: 1 Bath
+Status: Furnished
+
+Title: 2 Bed Flat, Great Bridgewater Street, M1
+Price: £1,500 per month
+Distance: 0.61 km
+Bedrooms: 2 Beds
+Bathrooms: 1 Bath
+Status: Furnished
+
+Title: 2 Bed Flat, Great Bridgewater Street, M1
+Price: £2,500 per month
+Distance: 0.61 km
+Bedrooms: 2 Beds
+Bathrooms: 2 Baths
+Status: Unfurnished
+
+Title: 2 Bed Flat, Great Bridgewater Street, M1
+Price: £1,999 per month
+Distance: 0.61 km
+Bedrooms: 2 Beds
+Bathrooms: 3 Baths
+Status: Furnished
+
+Title: 2 Bed Flat, The Grand, M1
+Price: £1,300 per month
+Distance: 0.61 km
+Bedrooms: 2 Beds
+Bathrooms: 2 Baths
+Status: Furnished
+
+Title: 2 Bed Flat, Worsley Street, M15
+Price: £1,600 per month
+Distance: 0.62 km
+Bedrooms: 2 Beds
+Bathrooms: 2 Baths
+Status: Furnished
+
+Title: 2 Bed Flat, Viadux, M1
+Price: £2,100 per month
+Distance: 0.62 km
+Bedrooms: 2 Beds
+Bathrooms: 2 Baths
+Status: Furnished
+
+Title: 2 Bed Flat, Linter Building, M1
+Price: £1,600 per month
+Distance: 0.63 km
+Bedrooms: 2 Beds
+Bathrooms: 2 Baths
+Status: Furnished
+

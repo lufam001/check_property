@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Property Scraper</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    input, button {
+      padding: 10px;
+      margin: 5px;
+      font-size: 16px;
+    }
+    #results {
+      margin-top: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h1>Property Scraper</h1>
+  <label for="url">Enter Property Listing URL:</label>
+  <input type="text" id="url" placeholder="Enter URL here" size="50" />
+  <button onclick="getData()">Get List</button>
+
+  <div id="results">
+    <!-- Scraped data will be displayed here -->
+  </div>
+
+
+
+
+
+  <script>
+    async function getData() {
+      const url = document.getElementById('url').value;
+  
+      if (!url) {
+        alert('Please enter a URL');
+        return;
+      }
+  
+      try {
+        // Send the URL to the backend for scraping
+        const response = await fetch('/scrape', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ url })
+        });
+  
+        const data = await response.json();
+  
+        if (Array.isArray(data) && data.length > 0) {
+          displayResults(data);
+        } else {
+          document.getElementById('results').innerHTML = 'No properties found.';
+        }
+      } catch (error) {
+        document.getElementById('results').innerHTML = 'Error scraping data.';
+      }
+    }
+  
+    function displayResults(properties) {
+      // Start creating the table structure
+      let html = '<table><thead><tr><th>Title</th><th>Monthly Rent</th><th>Bedrooms</th><th>Bathrooms</th><th>Status</th><th>Distance</th></tr></thead><tbody>';
+  
+      // Loop through each property and create a table row
+      properties.forEach(property => {
+        html += `<tr>
+          <td>${property.title || 'N/A'}</td> <!-- Display title if available -->
+          <td>${property.price || 'N/A'}</td> <!-- Display price if available -->
+          <td>${property.bedrooms || 'N/A'}</td> <!-- Display bedrooms if available -->
+          <td>${property.bathrooms || 'N/A'}</td> <!-- Display bathrooms if available -->
+          <td>${property.status || 'N/A'}</td> <!-- Display status if available -->
+          <td>${property.distance || 'N/A'}</td> <!-- Display distance if available -->
+        </tr>`;
+      });
+  
+      // Close the table tag
+      html += '</tbody></table>';
+  
+      // Insert the generated table into the results div
+      document.getElementById('results').innerHTML = html;
+    }
+  </script>
+
+
+</body>
+</html>
